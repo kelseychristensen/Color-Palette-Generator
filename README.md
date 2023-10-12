@@ -47,11 +47,11 @@ This was hard to figure out with JS. Only the first item in the list would get c
 @app.route('/', methods=['GET', 'POST'])
 def home():
     form = Form()
-    if request.method == "POST":
+    if form.validate_on_submit():
         filename = secure_filename(form.file.data.filename)
-        form.file.data.save('static/uploads/' + filename)
-        color_list = colors(f'static/uploads/{filename}', form.num_colors.data)
-        return render_template('palette.html', list=color_list, number_colors=form.num_colors.data)
+        form.file.data.save('api/static/uploads' + filename)
+        color_list = colors(f'api/static/uploads/{filename}', form.num_colors.data)
+        return render_template('palette.html', color_list=color_list, number_colors = form.num_colors.data)
     return render_template("index.html", form=form)
 ```
 ```html
@@ -61,16 +61,12 @@ def home():
 {% set cols = 4 %}
 
 
-{% for item in list %}
+{% for item in color_list %}
 
     {% if loop.index0 // rows != (loop.index0 - 1) // rows %}
-        <div class="row">
+<div class="row">
+
     {% endif %}
-
-
-<div class="col-3" style="background: {{ item }}">
-
-<p style="color: rgb(255,255,255,50%">{{ item }}</p>
 </div>
 ```
 ```css
