@@ -13,9 +13,9 @@ This website will generate a color palette from the image provided. </p>
 ## Screenshots
 
 #### Form
-![Full-Screen](/1.PNG "Full-Screen")
+![Full-Screen](1.PNG "Full-Screen")
 #### Result
-![Small-Screen](/2.PNG "Sm-Screen")
+![Small-Screen](2.PNG "Sm-Screen")
 
 ### Built with
 
