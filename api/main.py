@@ -40,7 +40,7 @@ def home():
     form = Form()
     if form.validate_on_submit():
         filename = secure_filename(form.file.data.filename)
-        form.file.data.save('api/static/uploads' + filename)
+        form.file.data.save('api/static/uploads/' + filename)
         color_list = colors(f'api/static/uploads/{filename}', form.num_colors.data)
         return render_template('palette.html', color_list=color_list, number_colors = form.num_colors.data)
     return render_template("index.html", form=form)
