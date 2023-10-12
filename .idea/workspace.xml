@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66cf621b-ccef-4e3b-aed2-4e30a446a7b6" name="Changes" comment="typp in filepath creation in def home">
+      <change beforePath="$PROJECT_DIR$/api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/static/uploads/Capture.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/static/uploads/Capture_-_Copy.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/static/uploads/Screenshot_2023-10-11_at_6.19.28_PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/static/uploads/Screenshot_2023-10-11_at_6.28.42_PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/static/uploads/original-4b8a78b67c85985df9afdc8a191cac9b.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/static/uploads/project-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/static/uploads/woman-working.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2WdVv7QlaFtpU4uKl4pkIiEJfUG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/api" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66cf621b-ccef-4e3b-aed2-4e30a446a7b6" name="Changes" comment="" />
+      <created>1697062673290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697062673290</updated>
+    </task>
+    <task id="LOCAL-00001" summary="vcs.xml">
+      <option name="closed" value="true" />
+      <created>1697075960872</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697075960872</updated>
+    </task>
+    <task id="LOCAL-00002" summary="vercel.json">
+      <option name="closed" value="true" />
+      <created>1697076349102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697076349102</updated>
+    </task>
+    <task id="LOCAL-00003" summary="read me in main dir">
+      <option name="closed" value="true" />
+      <created>1697076441555</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697076441555</updated>
+    </task>
+    <task id="LOCAL-00004" summary="filepaths for readme">
+      <option name="closed" value="true" />
+      <created>1697076494841</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697076494841</updated>
+    </task>
+    <task id="LOCAL-00005" summary="readme stuff again">
+      <option name="closed" value="true" />
+      <created>1697076650595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697076650595</updated>
+    </task>
+    <task id="LOCAL-00006" summary="typp in filepath creation in def home">
+      <option name="closed" value="true" />
+      <created>1697076970036</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697076970036</updated>
+    </task>
+    <task id="LOCAL-00007" summary="typp in filepath creation in def home">
+      <option name="closed" value="true" />
+      <created>1697077502994</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697077502994</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vcs.xml" />
+    <MESSAGE value="vercel.json" />
+    <MESSAGE value="read me in main dir" />
+    <MESSAGE value="filepaths for readme" />
+    <MESSAGE value="readme stuff again" />
+    <MESSAGE value="typp in filepath creation in def home" />
+    <option name="LAST_COMMIT_MESSAGE" value="typp in filepath creation in def home" />
+  </component>
+</project>
