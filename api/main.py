@@ -6,6 +6,7 @@ from wtforms import IntegerField, SubmitField
 from wtforms.validators import DataRequired, NumberRange
 from flask_wtf.file import FileField
 from werkzeug.utils import secure_filename
+import os
 
 class Form(FlaskForm):
     file = FileField(validators=[DataRequired()])
@@ -41,6 +42,7 @@ def home():
         filename = secure_filename(form.file.data.filename)
         form.file.data.save('static/uploads/' + filename)
         color_list = colors(f'static/uploads/{filename}', form.num_colors.data)
+        os.remove(f'static/uploads/{filename}')
         return render_template('palette.html', color_list=color_list, number_colors=form.num_colors.data)
     return render_template("index.html", form=form)
 
